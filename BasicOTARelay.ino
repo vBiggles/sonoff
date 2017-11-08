@@ -47,8 +47,8 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org");
 // NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 
 /* WiFi Settings */
-const char* ssid     = "swinair";
-const char* password = "letme1n#$";
+const char* ssid     = "";
+const char* password = "";
 
 /* Sonoff Outputs */
 const int relayPin = 12;  // Active high
